@@ -1,0 +1,68 @@
+body{
+    background-color:lightcyan;
+  }
+
+  .HomeMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(0, 255, 255, 0.656);
+    position:sticky;
+  }
+
+  .navmenu{
+    display: flex;
+    gap:16px;
+   justify-content: center;
+   list-style: none;
+   margin-right: 40px;
+   color: black;
+}
+#logo{
+    display: flex;
+    gap:16px;
+    list-style: none;
+}
+.SubHeader{
+    display: none;
+    list-style: none;
+  }
+  .subreciepies:hover>.SubHeader{
+    display: block;
+  }
+
+  .HomeIntroSection{
+    display: flex;
+  }
+  .introduction{
+    /* background-color: rgb(125, 216, 216); */
+    border: 1px;
+    width: 50%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.2;
+    border-color: blueviolet;
+    border-width: 2px;
+    /* border-style: dashed; */
+}
+.homeImg{
+    /* width: 100%; */
+    margin: 50px;
+    width: 650px;;
+    justify-content: center; 
+    background-image: url("https://source.unsplash.com/1600x1000/?health") ;
+    background-repeat: no-repeat; 
+    border-radius: 10px;
+}
+.navlist{
+    list-style: none;
+    width:fit-content;
+    justify-content: left;
+    font-style: italic;
+    flex-wrap: wrap;
+    margin: 2px;
+    padding: 2px;
+}

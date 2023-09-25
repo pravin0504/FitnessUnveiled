@@ -67,3 +67,24 @@
     flex-wrap: wrap;
     border-style: ridge;
 }
+
+.likeComment{
+    display: flex;
+    /* border-style: groove; */
+    margin: 10px;
+    gap:15px;
+}
+.btn{
+    margin: 5px;
+    padding: 5px;
+    /* background-color: aqua; */
+    border-style: groove;
+    border-radius: 5px;
+}
+.recentpostlabel{
+    background-color: chocolate;
+    font-weight: 200;
+    font-size:xx-large;
+    text-align: center;
+    /* width: 10%; */
+}

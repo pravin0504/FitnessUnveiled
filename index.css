@@ -13,10 +13,10 @@ body{
   .navmenu{
     display: flex;
     gap:16px;
-   justify-content: center;
-   list-style: none;
-   margin-right: 40px;
-   color: black;
+    justify-content: center;
+    list-style: none;
+    margin-right: 40px;
+    color: black;
 }
 #logo{
     display: flex;

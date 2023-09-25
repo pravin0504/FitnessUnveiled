@@ -8,12 +8,27 @@
 .blogCardSection{
     flex-wrap: wrap;
 }
+.navlistblogs{
+    list-style: none;
+    width:fit-content;
+    /* justify-content: left; */
+    font-style: italic;
+    /* flex-wrap: wrap; */
+    margin: 2px;
+    padding: 2px;
+}
 .menupadding{
     margin: 10px;
     padding: 10px;
-    text-align: center;
-    background-color: bisque;
-    
+    /* text-align: center; */
+    /* background-color: bisque;    */
+    border-style: groove;
+    border-width: 0.1px;
+}
+.menupadding:hover{
+    background-color: aqua;
+    color: blue;
+    cursor: pointer ;
 }
 .blogpage{
     display: flex;
@@ -31,17 +46,23 @@
 } */
 .blogContentArea{
     width: 98%;
-    border-style: groove;
-    margin: 60px;
-    padding: 20px;
+    /* border-style:groove; */
+    margin: 40px;
+    padding: 10px;
+    position: relative;
     
 }
 .iframeblog{
     /* width:fit-content; */
-    border-style: groove;
-    justify-content: center;
+    /* border-style: groove; */
+    /* justify-content: center; */
     /* height: max-content;
     width: max-content; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
 
 }
 .blogshome{
@@ -49,7 +70,7 @@
     /* justify-content: space-between; */
 }
 .blogCard{
-    width: 400px;
+    width: 300px;
     margin: 30px auto;
     border: 1px solid lightgray;
     padding: 8px;
@@ -71,15 +92,25 @@
 .likeComment{
     display: flex;
     /* border-style: groove; */
-    margin: 10px;
+    margin: 5px;
     gap:15px;
+    /* position: absolute;
+    left: 0;
+    bottom: 0; */
+    
 }
 .btn{
     margin: 5px;
     padding: 5px;
     /* background-color: aqua; */
     border-style: groove;
-    border-radius: 5px;
+    border-radius: 5px;   
+}
+
+.btn:hover{
+    background-color: aqua;
+    color: blue;  
+    cursor: pointer;
 }
 .recentpostlabel{
     background-color: chocolate;
@@ -87,4 +118,10 @@
     font-size:xx-large;
     text-align: center;
     /* width: 10%; */
+}
+.blog-img{
+    background-repeat: no-repeat; 
+    background-size:cover;
+    background-position:center;
+    justify-content: center;
 }

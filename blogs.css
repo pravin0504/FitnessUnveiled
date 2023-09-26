@@ -47,8 +47,8 @@
 .blogContentArea{
     width: 98%;
     /* border-style:groove; */
-    margin: 40px;
-    padding: 10px;
+    margin-top: 40px;
+    /* padding: 10px; */
     position: relative;
     
 }
@@ -86,13 +86,13 @@
 .Post-cards{
     display: flex;
     flex-wrap: wrap;
-    border-style: ridge;
+    /* border-style: ridge; */
 }
 
 .likeComment{
     display: flex;
     /* border-style: groove; */
-    margin: 5px;
+    /* margin: 5px; */
     gap:15px;
     /* position: absolute;
     left: 0;

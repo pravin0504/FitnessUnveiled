@@ -16,8 +16,13 @@
     border: 1px;
     border: greenyellow;
     border-style: groove;
-    margin:10px;
-    padding: 10px;
+    margin:5px;
+    padding: 1px;
     background-color: bisque;
     line-height: 1.4;
+}
+.BmiResultArea{
+    border-radius: 5px;
+    /* border-style: groove; */
+    background-color: darkseagreen;
 }

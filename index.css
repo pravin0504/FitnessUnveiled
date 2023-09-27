@@ -118,49 +118,69 @@ body{
   }
   a:link{
     color: black;
+    text-decoration: none;
     
   }
   
   /* visited link */
   a:visited {
     color: green;
+    text-decoration: none;
   }
   
   /* mouse over link */
   a:hover {
-    color: hotpink;
+    /* color: hotpink; */
+    text-decoration: none;
     /* background-color: yellow; */
   }
   
   /* selected link */
   a:active {
     color: blue;
+    text-decoration: none;
   }
 
   a{
     outline: none;
+    text-decoration: none;
   }
 
+  a:link {
+    /* color: green; */
+    background-color: transparent;
+    text-decoration: none;
+  }
   .container{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    align-items: center;
     /* display: block; */
 
   }
   .knowyourhealth{
     display: flex;
-    gap: 20px;
+    gap: 10px;
     /* justify-content: space-between;
     display: block;
     border: 2px;
     border-radius: 5px; */
+    /* width: 50px; */
+    /* align-items:last baseline; */
+    /* bottom: 50%; */
+
   }
   .btn{
     margin: 5px;
     padding: 5px;
-    /* background-color: aqua; */
-    /* border-style: groove; */
     border-radius: 5px;   
-    font-size: large;
+    background-color: chocolate;
+    /* width: 50px ; */
     /* transform: rotateX(90deg); */
+    /* font-size: 40px; */
+}
+.btncontain{
+  font-size: 50px;
+  border-radius: 10px;
 }

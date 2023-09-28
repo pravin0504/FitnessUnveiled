@@ -68,23 +68,25 @@
        
         <div >
             <table class="bmiInputformtbl">
+
+                <tr>
+                    <td><label for="weight">Enter weight (in kgs):</label></td>
+                    <td><input type="text" id="weight" name="weight"></td>
+                </tr>
+
                 <tr>
                     <td><label for="height">Enter your height ( in meter): </label></td>
                     <td><input type="text" id="height" name="height"></td>
                 </tr>
                     
                 <tr>
-                    <td><label for="weight">Enter weight (in kgs):</label></td>
-                    <td><input type="text" id="weight" name="weight"></td>
-                </tr>
-                    
-                <tr>
-                    <td><button style="font-size: 15px ;padding:5px; margin: 5px;cursor: pointer;border-radius: 5px;"><a href="blogs/obesityclass1.html" target="iframeBMI">CopmuteBMI</a></button></td>
+                    <!-- <td><button style="font-size: 15px ;padding:5px; margin: 5px;cursor: pointer;border-radius: 5px;"><a href="blogs/obesityclass1.html" target="iframeBMI" onclick="CopmuteBMI">CopmuteBMI</a></button></td> -->
+                    <td><button style="font-size: 15px ;padding:5px; margin: 5px;cursor: pointer;border-radius: 5px;" onclick=CopmuteBMI()> CopmuteBMI</button></td>
                 </tr>
 
                 <tr>
                     <td><label for="BMI">Your BMI is: </label></td>
-                    <td> <input type="text" id="bmiscore" ></td>
+                    <td> <input type="text" id="bmiscore" value="" ></td>
                 </tr>
             </table>
         </div>
@@ -98,8 +100,11 @@
     <div class="bmicategories">
         <div class="BmiResultArea">
             <!-- display content -->
-            <iframe class="iframeblog" name="iframeBMI" title="iframeBMI" onload="this.style.height=(this.contentWindow.document.body.scrollHeight+20)+'px';" scrolling="no"></iframe>
+            <iframe class="iframeblog" id="iframeBMI" title="iframeBMI" onload="this.style.height=(this.contentWindow.document.body.scrollHeight+20)+'px';" scrolling="no"></iframe>
         </div>
     </div> 
+
+    <!-- link js file -->
+    <script src="./javascriptfiles/bmi.js"></script>
 </body>
 </html>

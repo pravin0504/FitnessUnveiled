@@ -52,3 +52,14 @@ p{
     top: 5px;
 
 }
+.BookFreeConsultation{
+    transform:translateX(100%);
+    animation: cssmarquee 10s linear infinite;
+}
+
+#btn_BookFreeConsultation{
+    font-size: 20px; 
+    background-color: coral; border-radius: 10px ;padding:5px; margin: 5px;cursor: pointer;
+    transform:rotateX('5');
+    
+}

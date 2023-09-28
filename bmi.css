@@ -21,8 +21,34 @@
     background-color: bisque;
     line-height: 1.4;
 }
+.bmiInputformtbl{
+    font-size: 18px;
+    color: blue;
+}
 .BmiResultArea{
     border-radius: 5px;
     /* border-style: groove; */
-    background-color: darkseagreen;
+    background-color: linen;
+}
+h1{
+    color: blue;
+}
+em{
+    color: blue;
+    font-size: 25px;
+}
+b{
+    color: blue;
+   font-size: 20px;
+}
+p{
+    font-size: 20px;
+}
+.obesity-imgcard{
+    float: right;
+    border-radius: 20px;
+    width: 400px;
+    padding: 10px;
+    top: 5px;
+
 }

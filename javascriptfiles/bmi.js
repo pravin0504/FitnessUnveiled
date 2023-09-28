@@ -1,4 +1,4 @@
-function CopmuteBMI(){
+function ComputeBMI(){
     console.log('hello bmi')
     // let height = document.getElementById('height').getAttribute('value');
     let weight = Number(document.getElementById('weight').value);

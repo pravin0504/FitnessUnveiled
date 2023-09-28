@@ -18,31 +18,32 @@
                 <li>WellnessUnveiled</li>
             </ul>
         </div>
-        <div class="searchhome">
+        <div class="searchhome" style="display: none;">
             <input type="text" class="searchbox">
             <button class="SearchBtn">Search</button>
         </div>
         <div >
             <ul class="navmenu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="LatestPost.html">LatestPost</a></li>
-                <li class="subreciepies"><a href="Recipies.html">Recipies</a>
+                <li style="display: none;" ><a href="LatestPost.html">LatestPost</a></li>
+                <li class="subreciepies" style="display: none;"><a href="Recipies.html">Recipies</a>
                     <ul class="SubHeader">
                         <li><a>FatLossRecipies</a></li>
                         <li><a>weightGainRecipies</a></li>
                     </ul>  
                 </li>
-                <li><a href="TodaysPoll">TodaysPoll</a></li>
-                <li><a href="CheckYourBmi.html">CheckYourBmi</a></li>
+                <li style="display: none;" ><a href="TodaysPoll">TodaysPoll</a></li>
+                <li><a href="BMI.html">CheckYourBmi</a></li>
                 <li><a href="blogs.html">Blog></a></li>
                 <li><a href="FreeConsultation.html">FreeConsultation</a></li>
-                <li><a href="Gallery.html">Gallery</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Contact.html">Contact</a></li>
+                <li style="display: none;"><a href="Gallery.html">Gallery</a></li>
+                <li style="display: none;"><a href="About.html">About</a></li>
+                <li style="display: none;"><a href="Contact.html">Contact</a></li>
             </ul>
         </div>   
     
-</nav>
+    </nav>
+    
     <div class="calculateBMI">
         <img class="blog-img" src="Images/BMI.jpeg" alt="bmiimage" style="border-radius: 10px;"> <br> <br> 
         <div class="whatisbmi" style="padding: 10px; margin: 10px;">
@@ -53,14 +54,14 @@
 
                 BMI = (weight in kilograms) / (height in meters)^2
 
-                Here's how the BMI categories are typically defined for adults:
+                <p>Here's how the BMI categories are typically defined for adults:</p>
 
-                <p>Underweight: BMI less than 18.5 <br>
-                Normal weight: BMI between 18.5 and 24.9<br>
-                Overweight: BMI between 25 and 29.9<br>
-                Obesity (Class I): BMI between 30 and 34.9<br>
-                Obesity (Class II): BMI between 35 and 39.9<br>
-                Obesity (Class III): BMI 40 or greater</p>
+                <p style="line-height: 1.4;"><b>Underweight: </b>BMI less than 18.5 <br>
+                    <b>Normal weight: </b>BMI between 18.5 and 24.9<br>
+                    <b>Overweight: </b>BMI between 25 and 29.9<br>
+                    <b>Obesity (Class I): </b>BMI between 30 and 34.9<br>
+                    <b>Obesity (Class II): </b>BMI between 35 and 39.9<br>
+                    <b>Obesity (Class III): </b>BMI 40 or greater</p>
         </div>       
     </div>
     <p style="margin: 20px;color: blue;font-size: 25px;"><b>To Compute Your BMI, enter folloinwg details :</b>  </p><br>
@@ -81,7 +82,7 @@
                     
                 <tr>
                     <!-- <td><button style="font-size: 15px ;padding:5px; margin: 5px;cursor: pointer;border-radius: 5px;"><a href="blogs/obesityclass1.html" target="iframeBMI" onclick="CopmuteBMI">CopmuteBMI</a></button></td> -->
-                    <td><button style="font-size: 15px ;padding:5px; margin: 5px;cursor: pointer;border-radius: 5px;" onclick=CopmuteBMI()> CopmuteBMI</button></td>
+                    <td><button style="font-size: 19px ;padding:5px; margin: 5px;cursor: pointer;border-radius: 8px;background-color:coral;" onclick=ComputeBMI()> ComputeBMI</button></td>
                 </tr>
 
                 <tr>

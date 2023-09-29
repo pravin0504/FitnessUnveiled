@@ -60,10 +60,17 @@ body{
     margin: 50px;
     width: 650px;;
     justify-content: center; 
-    background-image: url("https://source.unsplash.com/1600x1000/?health") ;
+    /* background-image: url("https://source.unsplash.com/1600x1000/?health") ; */
     background-repeat: no-repeat; 
     border-radius: 10px;
 }
+
+.TextOnHomeImage{
+  color: coral;
+  font-size: 15px;
+  position: relative;
+}
+
 .navlist{
     list-style: none;
     width:fit-content;
@@ -78,7 +85,7 @@ body{
     background-color: rgb(209, 222, 197);
     margin: 20px;
     padding: 20px;
-    width: 60%;
+    width: 80%;
 }
 
 .servicesCard{

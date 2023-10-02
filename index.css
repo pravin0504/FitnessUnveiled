@@ -192,3 +192,10 @@ body{
   font-size: 50px;
   border-radius: 10px;
 }
+.latestpostblog{
+
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+    border-style: groove;
+}

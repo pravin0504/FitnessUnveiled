@@ -199,3 +199,21 @@ body{
     width: 80%;
     border-style: groove;
 }
+/* .WellnessUnveiled{
+  position: absolute;
+}
+.homeImg{
+  position: relative;
+} */
+
+.imagetext{
+  position: relative;
+}
+.WellnessUnveiled{
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  padding: 5px;
+  color: cyan;
+  
+}
